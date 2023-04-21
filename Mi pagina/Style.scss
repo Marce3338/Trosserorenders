@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&display=swap'
+    'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap'
+    'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/*GENERAL*/
+/*HEADER*/
+
+nav {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.moon {
+    border-radius: 10px;
+    border: solid 2px #000;
+    padding: 10px;
+
+}
+
+.moon:hover {
+    background-color: rgb(9, 9, 9);
+    transform: scale(1.09);
+    transition: all 0.5s;
+
+}
+
+.moon:active {
+    background-color: green;
+    font-size: 30px;
+}
+
+.moon:focus {
+    background-color: rgb(114, 116, 229);
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: auto;
+    align-items: center;
+   
+
+}
+
+/*FOOTER*/
+.end {
+    background-image: url(../Imagenes/Backgrounds/Lawrencium.jpg);
+    color: #a1a1a1;
+    font-size: 15px;
+    float: right;
+    clear: both;
+    bottom: 0;
+    margin-top: auto;
+
+
+
+
+}
+
+/*INDEX*/
+/*BODY*/
+.conteiner {
+    width: cover;
+    height: 300px;
+}
+
+.logo {
+    /*logo pagina*/
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    opacity: 1;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 100%;
+
+
+}
+
+
+
+.eye p {
+    /*primer texto*/
+    background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+
+}
+
+p {
+    flex-basis: 100%;
+}
+
+
+
+.nice h2 a {
+    /*titulo renders*/
+    background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+    align-items: center;
+    width: cover;
+    height: 250px;
+    border-radius: none;
+    color: white;
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+    font: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
+
+}
+
+
+.dead {
+    /*RENDERS*/
+    background-color: none;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.imgScroll {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+/*responsive*/
+
+.dead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgScroll {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 200px) {
+.body {
+    text-align: center;
+}
+
+    .imgScroll {
+      width: 100%;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .imgScroll {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .imgScroll {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 1440px) {
+    .imgScroll {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+.ice p {
+    /*Segundo texto*/
+    background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+    align-items: center;
+    justify-content: center;
+    width: cover;
+    border-radius: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font: bold;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.numbs h2 {
+    /*recomendaciones titulo*/
+    background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+    align-items: center;
+    justify-content: center;
+    text-decoration: dashed;
+    width: cover;
+    border-radius: none;
+    color: white;
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+    font: bold;
+    display: flex;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-top: 300px;
+
+}
+
+.numbs ol {
+    /*RECOMENDACIONES LISTA*/
+    color: white;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: cover;
+    font: italic;
+    list-style: georgian;
+    margin: 0;
+    padding-left: 500px;
+    padding-right: 500px;
+    background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+
+.see {
+    /*video*/
+    box-sizing: content-box;
+    background-color: #000;
+    height: 300px;
+    width: cover;
+    margin: 0 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.see iframe {
+    width: auto;
+}
+
+
+
+/*QUIENES SOMOS*/
+
+.conteiner-fluid {
+    background-color: #45a049;
+}
+
+.header {
+border: 5px solid black;
+height: 50px;
+}
+
+.main {
+    background-color: coral;
+    border: 5px solid black;
+    height: 300px;
+}
+
+
+.aside {
+    background-color: crimson;
+    border: 5px solid black;
+    height: 300px;
+}
+
+.article {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 300px;
+}
+
+.footer {
+    background-color: rgb(228, 47, 195);
+    border: 5px solid black;
+    height: 300px;
+}
+
+/*PROYECTOS*/
+/*BODY*/
+
+.bodyProyect {
+  background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.tittle1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  border: 5px solid white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas:
+      "img1 img2 img3 img3"
+      "img1 img4 img5 img6"
+      "img7 img4 img8 img8";
+  padding: 20px;
+  grid-gap: 20px;
+
+}
+
+.boxs {
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.boxs:hover {
+  transform: scale(1.09);
+  transition: all 0.5s;
+  filter: grayscale(0%);
+}
+
+.items1 {
+  grid-area: img1;
+  background-image: url(../Imagenes/Renders/Comedor\ dia/1.jpg);
+}
+
+.items2 {
+  grid-area: img2;
+  background-image: url(../Imagenes/Renders/Dormitorio\ dia/41.jpg);
+}
+
+.items3 {
+  grid-area: img3;
+  background-image: url(../Imagenes/Renders/Dormitorio\ dia/7.jpg);
+}
+
+.items4 {
+  grid-area: img4;
+  background-image: url(../Imagenes/Renders/Baño\ noche/3.jpg);
+}
+
+.items5 {
+  grid-area: img5;
+  background-image: url(../Imagenes/Renders/Dormitorio\ dia/43.jpg);
+}
+
+.items6 {
+  grid-area: img6;
+  background-image: url(../Imagenes/Renders/Dormitorio\ dia/10.jpg);
+}
+
+.items7 {
+  grid-area: img7;
+  background-image: url(../Imagenes/Renders/Dormitorio\ dia/41.jpg);
+}
+
+.items8 {
+  grid-area: img8;
+  background-image: url(../Imagenes/Renders/Dormitorio\ dia/41.jpg);
+}
+
+/*CLIENTES*/
+/*BODY*/
+
+.mean {
+  background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.speacks {
+  color: white;
+  text-align: center;
+}
+
+.facts {
+  color: white;
+  font-size: 17px;
+  font-family: serif;
+  font-style: italic;
+}
+
+.oil {
+  background-image: url(../Imagenes/Backgrounds/Deep\ Space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+/*CONTACTO*/
+/*BODY*/
+
+.idea {
+  text-align: left;
+  font-family: serif;
+  font-size: 30px;
+  color: white;
+}
+
+.form {
+  color: white;
+}
+
+
+/*campos*/
+input[type=text],
+input[type=tel],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/*botón de envío*/
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*etiquetas*/
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*selector de países*/
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/*contenedor*/
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/*Responsive*/
+
+@media only screen and (min-widht:480px) {
+  .vice {
+      align-items: center;
+      text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

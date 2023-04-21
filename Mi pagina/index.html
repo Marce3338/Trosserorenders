@@ -1,35 +1,55 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title><strong>primer pagina web</strong></title>
     <link rel="shortcut icon" href="./Assets/Imagenes/th.jfif" type="image/x-icon">
-    <link rel="stylesheet" href="./Assets/Css/Style.css">
+    <link rel="stylesheet" href="./Assets/Css/Style.css"> 
 </head>
 
 
 <body class="vice">
     <header>
-        <nav>
-            <ul>
-                <li><a id="arriba" class="moon" href="./index.html">Inicio</a></li>
-                <li><a class="moon" href="./Pages/Quienes somos.html">Quienes somos</a></li>
-                <li><a class="moon" href="./Pages/Proyectos.html">Proyectos</a></li>
-                <li><a class="moon" href="./Pages/Clientes.html">Clientes</a></li>
-                <li><a class="moon" href="./Pages/Contacto.html">Contacto</a></li>
-                <link rel="stylesheet" href="./Assets/Css/Style.css">
-            </ul>
-        </nav>
+        <!--navbar inicia-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="../index.html">🏙Render Trossero</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../Pages/quienes somos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Pages/proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Pages/clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Pages/contacto.html">Contactos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--navbar fin-->
 
     </header>
-    <main>
-        <section>
+    <main class="mainIndex">
+        <section class="sectionIndex">
             <div class="Conteiner">
                 <img class="logo" src="Assets/Imagenes/Logo/Renders TR.png" alt="logo de pagina">
 
@@ -56,12 +76,12 @@
             <div class="dead">
                 <article>
                     <ul>
-                        <li><img src="./Assets/Imagenes/Renders/Comedor dia/1.jpg" alt="" class="dead01"></li>
-                        <li><img src="./Assets/Imagenes/Renders/Dormitorio dia/10.jpg " alt="" class="dead10"></li>
-                        <li><img src="./Assets/Imagenes/Renders/Comedor dia/2.jpg" alt="" class="dead02"></li>
-                        <li><img src="./Assets/Imagenes/Renders/Dormitorio noche/26.jpg" alt="" class="dead26"></li>
-                        <li><img src="./Assets/Imagenes/Renders/Dormitorio noche/27.jpg" alt="" class="dead27"></li>
-                        <li><img src="./Assets/Imagenes/Renders/Dormitorio noche/28.jpg" alt="" class="dead28"></li>
+                        <li><img src="./Assets/Imagenes/Renders/Comedor dia/1.jpg" alt="" class="imgScroll"></li>
+                        <li><img src="./Assets/Imagenes/Renders/Dormitorio dia/10.jpg" alt="" class="imgScroll"></li>
+                        <li><img src="./Assets/Imagenes/Renders/Comedor dia/2.jpg" alt="" class="imgScroll"></li>
+                        <li><img src="./Assets/Imagenes/Renders/Dormitorio noche/26.jpg" alt="" class="imgScroll"></li>
+                        <li><img src="./Assets/Imagenes/Renders/Dormitorio noche/27.jpg" alt="" class="imgScroll"></li>
+                        <li><img src="./Assets/Imagenes/Renders/Dormitorio noche/28.jpg" alt="" class="imgScroll"></li>
                     </ul>
                 </article>
             </div>
@@ -135,7 +155,7 @@
                 </article>
             </div>
         </section>
-        <a href="#arriba">
+        <a href="./index.html">
             Ir arriba
         </a>
     </main>
